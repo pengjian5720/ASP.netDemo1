@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.Master.cs" Inherits="demo1.Day0429.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style>
+        body{
+            align-content:center;
+        }
+        #content{
+            width:777px;
+            height:auto;
+            margin:0 auto;
+            align-content:center;
+        }
+        #header{
+            background-image:url(../img/index_02.gif);
+            margin:auto;
+            height:118px;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="content">
+            <div id="header">
+
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
+            </asp:ContentPlaceHolder>
+            <div id="footer">
+                <img src="../img/index_14.gif"/>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

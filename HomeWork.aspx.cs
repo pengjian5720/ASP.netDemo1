@@ -33,11 +33,11 @@ namespace demo1
             if (!IsPostBack)
             {
                 string sql = "select * from tb_booktype;select * from tb_bookcase;";
-                SqlParameter[] sqlParameter = new SqlParameter[]
+/*                SqlParameter[] sqlParameter = new SqlParameter[]
                 {
                     new SqlParameter("@name",TextBox1),
                     new SqlParameter("@id",TextBox3)
-                };
+                };*/
                 DataSet ds2 = SqlHelper.ExecDataSet(sql);
                 this.DropDownList1.DataSource = ds2.Tables[0];
                 this.DropDownList1.DataTextField = "name";

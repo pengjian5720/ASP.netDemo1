@@ -26,7 +26,6 @@ namespace demo1
         {
             if (!IsPostBack)
             {
-                Page.DataBind();
                 BindBooks();
 
             }

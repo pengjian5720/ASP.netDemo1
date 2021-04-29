@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Themes\blue\css.css" />
     <Content Include="App_Themes\theme1\css\bootstrap-theme.css" />
     <Content Include="App_Themes\theme1\css\bootstrap-theme.min.css" />
     <Content Include="App_Themes\theme1\css\bootstrap.css" />
@@ -76,6 +77,11 @@
     <Content Include="App_Themes\theme1\js\bootstrap.min.js" />
     <Content Include="App_Themes\theme1\js\jquery-2.0.0.min.js" />
     <Content Include="App_Themes\theme1\js\npm.js" />
+    <Content Include="Day0422\DataList.aspx" />
+    <Content Include="Day0429\login.aspx" />
+    <Content Include="Day4.26\demo1.aspx" />
+    <Content Include="Day4.26\index.aspx" />
+    <Content Include="Day4.26\Login.aspx" />
     <Content Include="Global.asax" />
     <Content Include="GridView.aspx" />
     <Content Include="HomeWork.aspx" />
@@ -120,6 +126,48 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\SqlHelper.cs" />
+    <Compile Include="Day0422\DataList.aspx.cs">
+      <DependentUpon>DataList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Day0422\DataList.aspx.designer.cs">
+      <DependentUpon>DataList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Day0429\masterpage.Master.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Day0429\masterpage.Master.designer.cs">
+      <DependentUpon>masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Day0429\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Day0429\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Day4.26\demo1.aspx.cs">
+      <DependentUpon>demo1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Day4.26\demo1.aspx.designer.cs">
+      <DependentUpon>demo1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Day4.26\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Day4.26\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Day4.26\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Day4.26\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -145,6 +193,13 @@
     <Compile Include="RequiredFieldValidator.aspx.designer.cs">
       <DependentUpon>RequiredFieldValidator.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Site1.Master.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.cs">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
     <Compile Include="Test1.aspx.cs">
       <DependentUpon>Test1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -162,7 +217,11 @@
     <Content Include="App_Themes\theme1\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="App_Themes\theme1\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="App_Themes\theme1\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Day4.26\Web.config" />
+    <Content Include="App_Themes\blue\Skin1.skin" />
+    <Content Include="Day0429\masterpage.Master" />
     <None Include="packages.config" />
+    <Content Include="Site1.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

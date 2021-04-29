@@ -1,0 +1,11 @@
+﻿body {
+}
+.table{
+    border-collapse:collapse;
+    margin:50px auto;
+    width:40%;
+}
+.table, .table tr, .table td{
+    border-style:groove;
+
+}

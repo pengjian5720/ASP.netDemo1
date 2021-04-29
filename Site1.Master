@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="demo1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style>
+        #content{
+            width:777px;
+            margin:0 auto;
+
+        }
+        #header{
+            background-image:url(img/index_02.gif);
+            height:118px;
+            
+        }
+        #footer{
+            background-image:url(img/index_14.gif);
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="content">
+            <div id="header"></div>
+            <!--内容占位符-->
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+            </asp:ContentPlaceHolder>
+            <div id="footer">
+                <img src="img/index_14.gif" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>
